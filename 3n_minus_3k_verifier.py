@@ -36,6 +36,10 @@ for x in range(-1, find_until, -2):
     # n = -1 or any negative odd integer < 0
     # n = x that starts at -1 to find_until
     n = x
+    
+    print("\n*************************************** Start verifier program ****************************************")
+    print(f"n = {x}")
+    print("*******************************************************************************************************\n")
 
     iteration = 0
 
