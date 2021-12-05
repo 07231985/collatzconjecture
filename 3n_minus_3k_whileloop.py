@@ -11,7 +11,7 @@
 
 n = -1
 
-# k can be set from 0 to 31 ranges from 32 onwards are not working except for k = 33
+# k can be set from 0 to 31, k = 32 to 39 does not work. possibly k = 32 onwards does not work
 # k = 0; 3n-3**k = 3n-1
 # k = 1; 3n-3
 
