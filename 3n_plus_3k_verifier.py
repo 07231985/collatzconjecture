@@ -58,7 +58,7 @@ for x in range(1, find_until, 2):
             n = n / 2
 
         iteration += 1
-        # print(int(n))
+        print(int(n))
 
         if iteration == 1000000:
             missing_n.append(x)
