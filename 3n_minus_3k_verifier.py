@@ -44,7 +44,7 @@ for x in range(-1, find_until, -2):
         previous_n = n
         if previous_n == -2 * 3 ** k:
             loop += 1
-            print(f"==================== Infinite Loop:{loop} from n = {x}")
+            print(f"==================== Infinite Loop:{loop} for n = {x}")
         if previous_n == -2 * 3 ** k and loop == 3:
             print("end loop")
             break
