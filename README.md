@@ -17,8 +17,11 @@
 
     2. The Real Algebraic Expression of the Collatz Conjecture
        https://zenodo.org/record/5710468
-
+        
+        a. individual n
             3n_minus_3k_whileloop.py
             3n_plus_3k_whileloop.py
 
-
+        b. ranges from n = 1 to find_until (last odd number)
+            3n_minus_3k_verifier.py
+            3n_plus_3k_verifier.py
