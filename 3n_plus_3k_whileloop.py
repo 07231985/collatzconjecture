@@ -27,7 +27,7 @@ while n > 0:
     previous_n = n
     if previous_n == 2 * 3 ** k:
         loop += 1
-        print(f"==================== Infinite Loop:{loop} from n = 1")
+        print(f"==================== Infinite Loop:{loop} from n = {n}")
         print(f"==================== Algebraic expression: 3n + {3**k}")
     if previous_n == 2 * 3 ** k and loop == 3:
         print("end loop")
